@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas xmlns:xsi="www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="IvanFernendezGuinde_exame.xsd">
+    <receta codigo="E36-R21" tempoRealizacion="30">
+        <nombre></nombre>
+        <ingredientes raciones="6">
+            <ingrediente cantidad="1.50" unidades="pizcas">tomillo</ingrediente>
+        </ingredientes>
+        <realizacion>
+            <paso>1</paso>
+        </realizacion>
+    </receta>
+    <realizadas>
+        <receta codigo="E36-R21" fecha="2024-12-02"></receta>
+    </realizadas>
+</recetas>

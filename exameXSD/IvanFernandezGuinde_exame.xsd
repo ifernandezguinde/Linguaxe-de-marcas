@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+< xmlns:nm="www.w3.org/2001/XMLSchema">
+    <xs:element name="recetas">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- elemento receta -->
+                <xs:element name="receta" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- elementos dentro de receta -->
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="ingredientes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- elemento ingrediente dentro de ingredientes que se pode repetir un número ilimitado de veces -->
+                                        <xs:element name="ingrediente" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <!-- atributos de ingrediente -->
+                                                <xs:attribute name="cantidad" type="xs:double" use="restricted"/>
+                                                <xs:attribute name="unidades" use="optional">
+                                                <>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="raciones" type="xs:integer" use="restricted"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="realizacion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- elemento dentro de realizacion -->
+                                        <xs:element name="paso" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- elemento dentro de recetas que pode aparecer ou non -->
+                <xs:element name="realizadas" use="optional">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- elemento receta que pode aparecer cero ou mais veces-->
+                            <xs:element name="receta" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <!-- atributos de cada receta-->
+                                    <xs:attribute name="codigo" ref="IDREF" use="required"/>
+                                    <xs:attribute name="fecha" type="xs:date" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <!-- atributos do elemento receta, e obligatorio que aparezan-->
+                        <xs:attribute name="tiempoRealizacion" type="xs:integer" minLenghtIncluded="5" maxLenghtIncluded="360" use="restricted"/>
+                        <xs:attribute name="codigo" type="ID"  use="restricted"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>

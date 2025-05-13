@@ -1,0 +1,6 @@
+<!ELEMENT MensaxesDeTexto (mensaxe*)>
+<!ELEMENT mensaxe (telefono, data, hora, contido)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT data (#PCDATA)>
+    <!ELEMENT hora (#PCDATA)>
+    <!ELEMENT contido (#PCDATA)>

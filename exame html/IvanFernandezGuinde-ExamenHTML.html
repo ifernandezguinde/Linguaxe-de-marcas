@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pedido de pizza</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pedido de pizza</h1>
+    </header>
+
+    <!--isto sale como unha lista, pero ao enlazalo cun css porao todo seguiddo-->
+    <nav>
+        <ul>
+            <li>Personalizacion</li>
+            <li>Datos entrega</li>
+            <li>Claves entrega</li>
+            <li>Otra información</li>
+            <li>Método pago</li>
+            <li>Enviar</li>
+        </ul>
+    </nav>
+
+    <main>
+        <fieldset>
+            <legend> <img src="/Imaxes-20250407/casa.png"> Pizza napolitana - Personalización</legend><br><br>
+
+            Selecciona los ingredientes extra...
+            <table border="0" cellpadding="0">
+                <form>
+                    <tr>
+                        <th>Ingredientes:</th>
+                        <td>
+                            <input type="checkbox" name="len.queso" value="1">Queso<br>
+                            <input type="checkbox" name="len.pimiento" value="2">Pimiento<br>
+                            <input type="checkbox" name="len.cebolla" value="3">Cebolla<br>
+                        </td>
+                    </tr>
+                </form>
+            </table> <br><br>
+
+            Elige el tamaño...
+            <table border="0" cellpadding="0">
+                <form>
+                    <tr>
+                        <th>Tamaños:</th>
+                        <td>
+                            <input type="radio" name="pequeña" value="1">Pequeña<br>
+                            <input type="radio" name="mediana" value="2">Mediana<br>
+                            <input type="radio" name="grande" value="3">Grande<br>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend><img src="/Imaxes-20250407/casa.png"> Datos de entrega</legend><br><br>
+
+            <label>Nombre*</label>
+            <input type="text" name="nombre" autofocus required><br><br>
+
+            <label>Direccion*</label>
+            <input type="text" name="direccion" required><br><br>
+
+            <label>Telefono*</label>
+            <input type="tel" name="tel" pattern="9" checked="000000000" required><br><br>
+
+            <label>Email</label>
+            <input type="email" name="email" checked="nombre@dominio.com"><br><br>
+
+            <label>Elija una hora preferente de entrega*</label>
+            <input type="time" name="hora" required><br><br>
+
+            <label>Introduzca el color que desea de la caja</label>
+            <input type="color" name="color" checked="#Of5bff"><br><br>
+
+            <label>Instrucciones especiales</label><br>
+            <textarea></textarea>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend><img src="/Imaxes-20250407/casa.png"> Claves de entrega</legend><br><br>
+
+            Introduzca el codigo para garantizaar la entrega<br><br>
+            (1 número seguido 3 letras)*
+            <input type="text" name="codigo" size="3"  required>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend><img src="/Imaxes-20250407/casa.png"> Otra información</legend><br><br>
+
+            Introduzca su fecha de nacimiento:
+            <input type="date" name="fechaNac"><br>
+            (El día de su aniversario tendrá una pizza gratis)<br><br>
+
+            Suba una foto
+            <input type="file" name="file">
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend><img src="/Imaxes-20250407/casa.png"> Método de pago</legend><br><br>
+
+            Elija el método de pago*
+            <select name="MetodoPago">
+                <option value="1">Efectivo
+                <option value="2" selected>VISA
+                <option value="3">Bizum
+            </select>
+        </fieldset><br><br>
+
+        <input type="submit" value="Hacer pedido" name="Hacer pedido">
+
+
+    </main><br><br>
+
+    <footer style="text-align:center">
+        2025 Examen de HTML. 1º DAW. IES Pazo de Mercé
+    </footer>
+</body>
+
+</html>

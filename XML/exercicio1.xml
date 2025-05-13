@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF_8"?>
+<mamiferos>
+    <animales>
+        <animal nome="rufo">
+            <especie>can</especie>
+            <patas>catro</patas>
+        </animal>
+    </animales> 
+    <animales>
+        <animal nome="misifu">
+            <especie>gato</especie>
+            <patas>catro</patas>
+        </animal>
+    </animales>
+</mamiferos>

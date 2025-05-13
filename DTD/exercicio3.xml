@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listapedidos SYSTEM "DTDexercicio3.dtd">
+<listapedidos>
+    <pedido>
+        <codigo>A1</codigo>
+        <cantidade>23</cantidade>
+        <peso>2Kg</peso>
+    </pedido>
+    <pedido>
+        <codigo>B3</codigo>
+        <cantidade>68</cantidade>
+    </pedido>
+</listapedidos>

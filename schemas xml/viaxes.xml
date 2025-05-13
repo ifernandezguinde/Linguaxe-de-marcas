@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viaxes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="viaxes.xsd">
+     <viaxe>
+        <data>2023-03-23</data>
+        <quilómetros>458</quilómetros>
+        <transporte>moto</transporte>
+     </viaxe>
+     <viaxe>
+        <data>2020-06-12</data>
+        <quilómetros>2300</quilómetros>
+        <transporte>avion</transporte>
+     </viaxe>
+</viaxes>

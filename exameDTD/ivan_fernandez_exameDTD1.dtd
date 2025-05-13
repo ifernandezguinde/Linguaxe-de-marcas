@@ -1,0 +1,13 @@
+<!ELEMENT Factura (Numero_de_factura,data, cliente)>
+<!ELEMENT Numero_de_factura (#PCDATA)>
+<!ATTLIST Factura Numero_de_factura ID #REQUIRED
+                        caracter IDREF #IMPLIED>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT cliente (nome, email?)>
+<!ATTLIST cliente nome CDATA #REQUIRED>
+<!ATTLIST cliente email CDATA #IMPLIED>
+<!ELEMENT lineaFactura (Producto, Cantidade, Precio, Total)>
+<!ELEMENT Producto (#PCDATA)>
+<!ELEMENT Cantidade (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT Total (#PCDATA)>

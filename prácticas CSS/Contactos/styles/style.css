@@ -1,0 +1,78 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table td:nth-child(1) {
+            background-color: lightblue;
+        }
+
+        table td:nth-child(2) {
+            background-color: lightcyan;
+        }
+
+        table td:nth-child(3) {
+            background-color: lightgreen;
+        }
+
+        table td:nth-child(4) {
+            background-color: rgb(226, 205, 19);
+        }
+
+        table td:nth-child(5) {
+            background-color: rgb(211, 16, 33);
+        }
+
+        a:hover {
+            color: #3498db;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:active {
+            color: #2ecc71;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        th {
+            border: 3px solid #3498db;
+            /*Borde:color, grosor y estilo*/
+            background-color: #f2f2f2;
+            /*Color/fondo de los encabezados*/
+            padding: 10px;
+        }
+
+        td {
+            border-color: #2ecc71;
+            /* Color del borde */
+            border-width: 2px;
+            /* Grosor del borde */
+            border-style: solid;
+            /* Estilo del borde */
+            padding: 8px;
+            text-align: center;
+        }
+
+        tr td:hover {
+            background-color: white;
+            /*Color/fondo al pasar el ratón */
+        }
+
+        th:hover {
+            background-color: white;
+        }
+
+        

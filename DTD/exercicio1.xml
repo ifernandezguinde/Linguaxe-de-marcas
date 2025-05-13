@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MensaxesDeTexto SYSTEM "DTDexercicio1.dtd">
+<MensaxesDeTexto>
+    <mensaxe>
+        <telefono>666666666</telefono>
+        <data>12-08-2024</data>
+        <hora>18:30</hora>
+        <contido>email de proba</contido>
+    </mensaxe>
+</MensaxesDeTexto>

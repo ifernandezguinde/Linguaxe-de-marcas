@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf_8"?>
+<biblioteca>
+    <libro>
+        <titulo>Titulo="cien años de soledad"</titulo>
+        <autor-o-autores>Autor o autores="Gabriel GarcíaMárquez"</autor-o-autores>
+        <isbn>ISBN="978-84-376-0494-7"</isbn>
+        <ano>"1967"</ano>
+        <editorial>"Editorial Sudamericana"</editorial>
+        <descripcion/>
+    </libro>
+    <libro>
+        <titulo>Titulo="Los secretos de la mente millonaria"</titulo>
+        <autor-o-autores>Autor o autores="T. Harv Eker y Jack Canfield"</autor-o-autores>
+        <isbn>ISBN="978-8478086085"</isbn>
+        <ano>"2015"</ano>
+        <editorial>"Sirio"</editorial>
+        <descripcion idioma="castellano">Este libro combina consejos prácticos y principios psicológicos para
+            ayudar a las personas a cambiar su mentalidad sobre el dinero y alcanzar el éxito
+            financiero. A través de historias y ejemplos, Eker y Canfield abordan cómo las creencias
+            y hábitos pueden influir en la riqueza personal.</descripcion>
+    </libro>
+</biblioteca>

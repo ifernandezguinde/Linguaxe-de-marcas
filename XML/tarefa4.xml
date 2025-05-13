@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<empresa
+    xmlns:pr="http://www.LM.com/namespace/proxectos/"
+    xmlns:em="https://www.LM.com/namespace/empregados/">
+
+    <proxectos>
+        <proxecto>
+            <pr:id>PJ001</pr:id>
+            <pr:nome>Sistema de Xestión</pr:nome>
+            <data_inicio>2023-05-01</data_inicio>
+            <data_fin>2024-01-15</data_fin>
+        </proxecto>
+        <proxecto>
+            <pr:id>PJ002</pr:id>
+            <pr:nome>Aplicación Móbil</pr:nome>
+            <data_inicio>2023-07-20</data_inicio>
+            <data_fin>2024-03-30</data_fin>
+        </proxecto>
+    </proxectos>
+
+    
+    <empregados>
+        <empregado>
+            <em:id>EMP001</em:id>
+            <em:nome>Antón López</em:nome>
+            <departamento>Desenvolvemento</departamento>
+        </empregado>
+        <empregado>
+            <em:id>EMP002</em:id>
+            <em:nome>María González</em:nome>
+            <departamento>Deseño</departamento>
+        </empregado>
+    </empregados>
+</empresa>

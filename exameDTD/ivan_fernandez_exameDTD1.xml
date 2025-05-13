@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Factura SYSTEM "ivan_fernandez_exameDTD1.dtd">
+<Factura Numero_de_factura="00003401">
+    <Numero_de_factura>00003401</Numero_de_factura>
+    <data>01/01/19</data>
+    <cliente nome="Manuel" email="manuel@gmail.com"></cliente>
+        <lineaFactura>
+            <Producto>Document 1</Producto>
+            <Cantidade>1</Cantidade>
+            <Precio>100</Precio>
+            <Total>100</Total>
+        </lineaFactura>
+        <lineaFactura>
+            <Producto>Document 2</Producto>
+            <Cantidade>1</Cantidade>
+            <Precio>50</Precio>
+            <Total>50</Total>
+        </lineaFactura>
+        <lineaFactura>
+            <Producto>Document 3</Producto>
+            <Cantidade>2</Cantidade>
+            <Precio>50</Precio>
+            <Total>50</Total>
+        </lineaFactura>
+        <lineaFactura>
+            <Producto>Document 4</Producto>
+            <Cantidade>1</Cantidade>
+            <Precio>100</Precio>
+            <Total>100</Total>
+        </lineaFactura>
+
+</Factura>

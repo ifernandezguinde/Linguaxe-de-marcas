@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas SYSTEM "DTDexercicio2.dtd">
+<listaventas>
+    <venta>
+        <importe> 20€</importe>
+        <comprador>Fernando</comprador>
+        <vendedor>HP</vendedor>
+        <fecha>24-02-2024</fecha>
+        <codigofactura>E342c12</codigofactura>
+    </venta>
+    <venta>
+        <importe>130€</importe>
+        <comprador>María</comprador>
+        <vendedor>DELL</vendedor>
+        <codigofactura>E342D19</codigofactura>
+    </venta>
+</listaventas>

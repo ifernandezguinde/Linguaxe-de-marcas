@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feitos-historicos>
+    <feito>
+        <titulo>IBM da a coñecer o PC</titulo>
+        <data>dia="12" mes="8" ano="1981"</data>
+    </feito>
+    <feito>
+        <titulo>Fúndase Google</titulo>
+        <data>dia="4" mes="9" ano="1998"</data>
+    </feito>
+    <feito>
+        <titulo>Fúndase Facebook</titulo>
+        <data>dia="4" mes="2" ano="2004"</data>
+    </feito>
+</feitos-historicos>
