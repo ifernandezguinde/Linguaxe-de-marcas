@@ -1,0 +1,64 @@
+/* reset css que elimina el margen y el padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f0e1;
+}
+
+/* Estilo para el encabezado h1*/
+h1 {
+    font-family: Georgia, serif;
+    color: #4E3B31;
+}
+
+/* centramos los textos */
+h1, p {
+    text-align: center;
+}
+
+/* alineamos el h2 a la izquierda */
+h2 {
+    text-align: left;
+}
+
+/* Estilo para la clase property-table*/
+.property-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Estilo para encabezados y datos td */
+.property-table th,
+.property-table td {
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* Estilo para los encabezados th */
+.property-table th {
+    
+    background-color: #d7af4a;
+    color: white;
+}
+
+
+
+/* colores para las filas */
+
+/* filas impares */
+.property-table tr.impares {
+    background-color: #f2a900e1;
+}
+
+/* filas pares */
+.property-table tr.pares {
+    background-color: #a95c2b;
+}
+
