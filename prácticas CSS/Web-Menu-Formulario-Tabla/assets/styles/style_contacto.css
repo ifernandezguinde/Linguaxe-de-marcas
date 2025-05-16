@@ -1,0 +1,10 @@
+/* le damos margenes al fieldset */
+fieldset {
+    padding: 5px;
+}
+
+/* ponemos le texto del formulario justificado */
+form {
+    /* lo ponemos justificado */
+    text-align: justify;
+}

@@ -1,0 +1,54 @@
+/* reset css que elimina el margen y el padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para el body */
+body {
+    /* fuente de la letra */
+    font-family: Arial, sans-serif;
+    /* margen de 20px */
+    margin: 20px;
+    /* color de fondo */
+    background-color: #f5f0e1;
+}
+
+/* estilo para el h1 */
+h1 {
+    /* fuente de la letra */
+    font-family: Georgia, serif;
+    /* color de la letra */
+    color: #4E3B31;
+    /* centra el texto */
+    text-align: center;
+}
+
+/* estilo para la tabla */
+.property-table {
+    /* margen */
+    margin: 0 auto;
+    /* junta los bordes de las celdas en uno solo */
+    border-collapse: collapse;
+}
+
+/* Estilo para encabezados y datos td */
+.property-table th,
+.property-table td {
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* estilo para los encabezados th */
+.property-table th {
+    /* color de fondo */
+    background-color: #d7af4a;
+    /* color de letra */
+    color: white;
+}
+
+/* estilo del footer */
+footer {
+    /* centra el footer */
+    text-align: center;
+}

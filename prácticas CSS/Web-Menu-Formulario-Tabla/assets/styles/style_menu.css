@@ -1,46 +1,59 @@
+/* reset css que elimina el margen y el padding */
 * {
     margin: 0;
-    /*Elimina el margen predeterminado de todos los elementos */
     padding: 0;
-    /*Elimina el padding predeterminado de todos los elementos */
 }
 
+/* estilo para el body */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
     /* Añade un margen de 20px alrededor del cuerpo */
+    margin: 20px;
     background-color: #f5f0e1
 }
 
+/* estilos para el menu */
+
 #menu {
+    /* tipo de fuente */
     font-family: Arial;
+    /* alineación del texto */
     text-align: center;
     /* Centrar el menú */
     margin-bottom: 10px;
 }
 
 #menu ul {
-    list-style-type: none;
     /* Eliminar puntos de la lista */
-    display: flex;
+    list-style-type: none;
     /* Convertir el ul en un contenedor flex */
-    justify-content: center;
+    display: flex;
     /*Determina la disposición de elementos Flex */
+    justify-content: center;
 }
 
 #menu a {
+    /* separación vertical y horizontal */
     padding: 10px 20px;
+    /* color de fondo */
     background-color: #dedcd4;
+    /* alineación del texto */
     text-align: center;
 }
 
+/* estilo para el link */
 #menu a:link,
 #menu a:visited {
+    /* cambia el color */
     color: #6c0909;
+    /* quita cualquier decoración */
     text-decoration: none;
 }
 
+
 #menu a:hover {
+    /* color de fondo */
     background-color: #980c0c;
+    /* color de la letra */
     color: #ffffff;
 }
