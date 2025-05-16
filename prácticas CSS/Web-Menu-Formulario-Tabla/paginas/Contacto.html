@@ -27,69 +27,75 @@
     </header><br><br>
 
 
-    
 
-    <!-- 1. Enviar por POST al correo -->
-    <form action="mailto:registro@dominio.com" method="post" enctype="multipart/form-data">
-        <fieldset>
-            <legend><h1>Formulario de Registro</h1></legend><br>
+    <main>
+        <section>
+            <!-- 1. Enviar por POST al correo -->
+            <form action="mailto:registro@dominio.com" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>
+                        <h1>Formulario de Registro</h1>
+                    </legend><br>
 
-            <!-- 2. Nombre -->
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
+                    <!-- 2. Nombre -->
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
 
-            <!-- 3. Apellidos -->
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" id="apellidos" name="apellidos" required><br><br>
+                    <!-- 3. Apellidos -->
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required><br><br>
 
-            <!-- 4. Contraseña -->
-            <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" required><br><br>
+                    <!-- 4. Contraseña -->
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required><br><br>
 
-            <!-- 5. Temas de interés -->
-            <p>Temas de interés:</p>
-            <label><input type="checkbox" name="temas" value="cultura"> Cultura</label><br>
-            <label><input type="checkbox" name="temas" value="deportes"> Deportes</label><br>
-            <label><input type="checkbox" name="temas" value="ciencia"> Ciencia</label><br>
-            <label><input type="checkbox" name="temas" value="tecnologia"> Tecnología</label><br>
-            <label><input type="checkbox" name="temas" value="otros"> Otros</label><br><br>
+                    <!-- 5. Temas de interés -->
+                    <p>Temas de interés:</p>
+                    <label><input type="checkbox" name="temas" value="cultura"> Cultura</label><br>
+                    <label><input type="checkbox" name="temas" value="deportes"> Deportes</label><br>
+                    <label><input type="checkbox" name="temas" value="ciencia"> Ciencia</label><br>
+                    <label><input type="checkbox" name="temas" value="tecnologia"> Tecnología</label><br>
+                    <label><input type="checkbox" name="temas" value="otros"> Otros</label><br><br>
 
-            <!-- 6. Cómo conoció la web -->
-            <p>¿Cómo conociste nuestra web?</p>
-            <label><input type="radio" name="origen" value="amigos" required> Amig@s</label><br>
-            <label><input type="radio" name="origen" value="prensa"> Prensa</label><br>
-            <label><input type="radio" name="origen" value="redes"> Redes sociales</label><br>
-            <label><input type="radio" name="origen" value="tv"> Televisión</label><br>
-            <label><input type="radio" name="origen" value="radio"> Radio</label><br><br>
+                    <!-- 6. Cómo conoció la web -->
+                    <p>¿Cómo conociste nuestra web?</p>
+                    <label><input type="radio" name="origen" value="amigos" required> Amig@s</label><br>
+                    <label><input type="radio" name="origen" value="prensa"> Prensa</label><br>
+                    <label><input type="radio" name="origen" value="redes"> Redes sociales</label><br>
+                    <label><input type="radio" name="origen" value="tv"> Televisión</label><br>
+                    <label><input type="radio" name="origen" value="radio"> Radio</label><br><br>
 
-            <!-- 7. Botón para mostrar vale de oferta -->
-            <button type="button" onclick="mostrarVale()">Mostrar vale de oferta</button><br><br>
+                    <!-- 7. Botón para mostrar vale de oferta -->
+                    <button type="button" onclick="mostrarVale()">Mostrar vale de oferta</button><br><br>
 
-            <!-- 8. Subir foto de perfil -->
-            <label for="foto">Subir foto de perfil (PNG o JPG):</label>
-            <input type="file" id="foto" name="foto" accept=".png, .jpg, .jpeg" required><br><br>
+                    <!-- 8. Subir foto de perfil -->
+                    <label for="foto">Subir foto de perfil (PNG o JPG):</label>
+                    <input type="file" id="foto" name="foto" accept=".png, .jpg, .jpeg" required><br><br>
 
-            <!-- 9. Comentarios -->
-            <label for="comentario">Comentarios:</label><br>
-            <textarea id="comentario" name="comentario" rows="4" cols="50">Introduzca sus comentarios</textarea><br><br>
+                    <!-- 9. Comentarios -->
+                    <label for="comentario">Comentarios:</label><br>
+                    <textarea id="comentario" name="comentario" rows="4"
+                        cols="50">Introduzca sus comentarios</textarea><br><br>
 
-            <!-- 10. Provincia -->
-            <label for="provincia">Provincia:</label>
-            <select id="provincia" name="provincia" required>
-                <option value="" selected disabled>Seleccione la provincia</option>
-                <option value="coruna">A Coruña</option>
-                <option value="lugo">Lugo</option>
-                <option value="ourense">Ourense</option>
-                <option value="pontevedra">Pontevedra</option>
-                <option value="leon">León</option>
-            </select><br><br>
+                    <!-- 10. Provincia -->
+                    <label for="provincia">Provincia:</label>
+                    <select id="provincia" name="provincia" required>
+                        <option value="" selected disabled>Seleccione la provincia</option>
+                        <option value="coruna">A Coruña</option>
+                        <option value="lugo">Lugo</option>
+                        <option value="ourense">Ourense</option>
+                        <option value="pontevedra">Pontevedra</option>
+                        <option value="leon">León</option>
+                    </select><br><br>
 
-            <!-- 11. Botones de envío y reseteo -->
-            <input type="submit" value="Registrarse">
-            <input type="reset" value="Limpiar formulario">
+                    <!-- 11. Botones de envío y reseteo -->
+                    <input type="submit" value="Registrarse">
+                    <input type="reset" value="Limpiar formulario">
 
-        </fieldset>
-    </form><br><br><br>
+                </fieldset>
+            </form><br><br><br>
+        </section>
+    </main>
 
     <footer>
         <p>© 2025 Turismo en Galicia | <a
