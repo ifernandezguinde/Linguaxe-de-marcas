@@ -1,0 +1,51 @@
+/* Selector general */
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos básicos */
+        body {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #e7f3fe;
+        }
+
+        /* Selector :nth-child */
+        li:nth-child(odd) {
+            background-color: #bee2fe; /* Color para elementos en posiciones impares */
+        }
+
+        li:nth-child(even) {
+            background-color: #cfe3fe; /* Color para elementos en posiciones pares */
+        }
+
+        li:nth-child(3) {
+            color: red; /* Cambia el color del tercer <li> */
+        }
+
+        /* Selector :not */
+        li:not(.especial) {
+            color: blue; /* Aplica color azul a <li> que no tienen la clase especial */
+        }
+
+        /* Estilo para un elemento específico que no recibe eventos del ratón */
+        .desactivado {
+            pointer-events: none; /* Desactiva eventos del ratón */
+            color: gray; /* Indica que este elemento está desactivado */
+        }

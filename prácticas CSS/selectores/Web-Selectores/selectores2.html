@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Práctica de Selectores CSS avanzados</title>
+<link rel="stylesheet" href="styles/css-selectores2.css">
+</head>
+<body>
+
+<h1>Ejemplo de selectores CSS avanzados</h1>
+
+<!-- Selector por ID -->
+<div id="contenido-edicion">
+  <h2>Sección: Contenido en edición</h2>
+  <p>Este contenido tiene un <strong>selector por ID</strong>: #contenido-edicion.</p>
+</div>
+
+<!-- Separados por comas -->
+<h2>Sección: Separados por comas</h2>
+<p class="destacado">Este párrafo tiene clase destacado.</p>
+<div id="especial">Este div tiene ID especial.</div>
+<span class="sombreado">Este span está sombreado.</span>
+
+<!-- Separados por espacio (descendientes) -->
+<h2>Sección: Descendientes</h2>
+<div class="destacado">
+  <p>Este párrafo está dentro de un div con clase destacado (selector por espacio). </p>
+</div>
+
+<!-- Lista con hijo directo (>) -->
+<h2>Sección: Hijo directo</h2>
+<ul id="lista">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+
+<!-- Selección hermano adyacente (+) -->
+<h2>Sección: Hermano adyacente (+)</h2>
+<h3>Subtítulo</h3>
+<p>Este párrafo aparece justo después del h3 mediante selector +.</p>
+
+<!-- Selección por atributos -->
+<h2>Sección: Atributos</h2>
+<a href="#" title="Enlace especial">Enlace con atributo</a>
+<a href="#">Enlace sin atributo</a>
+
+</body>
+</html>

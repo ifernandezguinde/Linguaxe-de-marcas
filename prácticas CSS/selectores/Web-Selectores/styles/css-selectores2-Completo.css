@@ -1,0 +1,66 @@
+ * {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+
+  h1 {
+    text-align: center;
+    color: #2e8b57;
+    margin-bottom: 20px;
+  }
+
+  /* Selector por ID */
+  #contenido-edicion {
+    background-color: #fff8dc;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  /* Todas las reglas de selectores */
+  /* Separados por comas: */
+  h2, h3, p {
+    margin: 10px 0;
+  }
+
+  /* Separados por espacio: */
+  div p {
+    padding: 5px;
+    background-color: #d0f0c0;
+  }
+
+  /* Selector hijo directo (>), ejemplo en lista de items */
+  #lista > li {
+    list-style: circle none;
+    padding: 8px;
+    background-color: #ffe4e1;
+  }
+
+  /* Selector hermano adyacente (+) */
+  h2 + p {
+    font-style: italic;
+    color: #555;
+  }
+
+  /* Selector por atributos */
+  a[title] {
+    font-weight: bold;
+    color: #c71585;
+  }
+
+  /* Combinación de selectores separados por comas */
+  .destacado, #especial, span.sombreado {
+    border: 2px dashed #333;
+    padding: 8px;
+    margin-top: 15px;
+  }
+
+  /* Separados por espacio (descendiente) */
+  div .destacado {
+    background-color: #ffe4b5; /* Dentro de algún div, con esa clase */
+  }
